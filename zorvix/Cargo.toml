@@ -1,8 +1,10 @@
 [package]
-name = "zorvix-server"
+name = "zorvix"
 version = "0.1.0"
 edition = "2021"
+default-run = "zorvix"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bevy.workspace = true
